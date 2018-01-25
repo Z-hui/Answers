@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <!--垂直滚动，这里必须设置高度-->
+  <view class='userHeadView' bindtap='userHeadTap'>
+  <text id='userNameLabel'>{{motto}}</text>
+  </view>
+  <view style="background: red; width: 200px; height: 100px"></view>
+  <view style="background: green; width: 200px; height: 100px"></view>
+  <view style="background: blue; width: 200px; height: 100px"></view>
+  <view style="background: yellow; width: 200px; height: 100px"></view>
+</view>
